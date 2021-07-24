@@ -11,6 +11,7 @@ namespace CollectionsDemo
             Console.WriteLine("Enter 2 for stack");
             Console.WriteLine("Enter 3 for queue");
             Console.WriteLine("Enter 4 for HashSet");
+            Console.WriteLine("Enter 5 for Dictionary");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -25,6 +26,9 @@ namespace CollectionsDemo
                     break;
                 case 4:
                     SetDemo.SetOperation();
+                    break;
+                case 5:
+                    DictionaryDemo.DictionaryOperations();
                     break;
 
             }
